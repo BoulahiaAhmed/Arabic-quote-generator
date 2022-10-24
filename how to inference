@@ -1,0 +1,9 @@
+I will use the Minimum Bayes Risk (MBR)
+step by step:
+1. generate several condidate generation
+2.compare condidate against each others using ROUGE score
+3.choose the sample with the highest average similarity
+
+MBR: arg max 1/n sum( ROUGE (E,E'))
+basically we are going to calculate a weighted sum for each ROUGE SCORE between a condidate E and the other contidates E'.
+the condidate with the highest average similarity is the one we are going to choose.
