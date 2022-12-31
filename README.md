@@ -1,2 +1,2 @@
 # Arabic-quote-generator
-In this project, I used an Arabic quote dataset I created before, and I used this data to finetune Gpt-2 model to generate Arabic quotes.
+For this project, I utilized a dataset of Arabic quotes that I had previously created in order to fine-tune a GPT-2 model for the generation of Arabic quotations.
